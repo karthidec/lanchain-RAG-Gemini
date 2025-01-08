@@ -15,7 +15,6 @@ nltk.download('averaged_perceptron_tagger_eng')
 
 # Load environment variables. Assumes that project contains .env file with API keys
 load_dotenv()
-openai.api_key = os.environ['OPENAI_API_KEY']
 
 CHROMA_PATH = "chroma"
 DATA_PATH = "data/books"
