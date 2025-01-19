@@ -154,6 +154,7 @@ zipp==3.21.0
 
 
 # onnxruntime==1.17.1 # chromadb dependency: on Mac use `conda install onnxruntime -c conda-forge`
+ - To first time install conda in mac :  brew install --cask anaconda
 # For Windows users, install Microsoft Visual C++ Build Tools first
 # install onnxruntime before installing `chromadb`
 
